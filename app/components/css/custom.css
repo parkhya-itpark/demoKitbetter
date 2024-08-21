@@ -1,0 +1,23 @@
+.custom-section {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: 20px;
+  height: 35px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.swiper-button-prev {
+  background-image: url('../../assets/prev-arrow.svg'); /* Add your SVG path */
+  left: 50px; /* Adjust position as needed */
+}
+
+.swiper-button-next {
+  background-image: url('../../assets/next-arrow.svg'); /* Add your SVG path */
+  right: 50px; /* Adjust position as needed */
+}
